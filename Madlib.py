@@ -40,7 +40,7 @@ for placeholder in placeholders:
 
 # Writing the answer after replacement of the placeholders in another text document
 # "w" - write mode
-with open("passage.txt", "w")as fw:
+with open("answers.txt", "w")as fw:
     fw.write(story)
 fw.close() 
 
